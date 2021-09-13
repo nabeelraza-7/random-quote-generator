@@ -11,3 +11,59 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@import url('https://fonts.googleapis.com/css2?family=Gelasio');
+/* * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+} */
+header{
+  background-color: black;
+  color: gray;
+}
+
+.container-box {
+  display: flex;
+  justify-content: space-between;
+}
+.option {
+  margin: 2rem;
+  cursor: pointer;
+}
+.option:hover{
+  color: white;
+}
+.main-container {
+  display:flex;
+  justify-content: center;
+  margin-top: 4rem;
+  min-height: 70vh;
+}
+#quote-box{
+  width: 50%;
+}
+#quote-box::before{
+  content:"\201c";
+  font-size:100px;
+  font-family:'Gelasio', serif;
+  display: block;
+  margin-bottom:-80px;
+  margin-top:-40px;
+}
+#text{
+  font-family:'Gelasio', serif;
+  font-size: 24pt;
+  font-style:italic;
+  text-indent: 0;
+}
+#author{
+  text-align:right;
+}
+/* button{
+  display:block;
+} */
+/* .quote-marks::before{
+  content:"\201c";
+  width:100%;
+  text-align: left;
+} */
